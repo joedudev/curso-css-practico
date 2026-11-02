@@ -2,6 +2,7 @@
 	/* Fondos (de más oscuro a más claro) */
 	--bg-base: #0a1020; /* fondo de la página */
 	--bg-surface: #111a2e; /* tarjetas, paneles */
+	--bg-surface-modal: rgba(17, 26, 46, 0.5);
 	--bg-elevated: #1a2640; /* hover, modales */
 	--border: #26365a; /* bordes y divisores */
 
@@ -299,8 +300,13 @@ body {
 .modal {
 	width: 100%;
 	height: 100%;
-	background-color: var(--bg-surface);
-	opacity: 50%;
+	background-color: var(--bg-surface-modal);
 	position: absolute;
 	z-index: 4;
+	place-items: center;
+}
+.modal__content {
+	background-color: white;
+	width: 50%;
+	height: 50%;
 }
