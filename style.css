@@ -157,6 +157,10 @@ body {
 	font-size: 14px;
 	font-weight: 400;
 }
+.navbar__content ul li a:hover {
+	color: var(--brick-yellow);
+	transition: color 0.3s ease-in-out;
+}
 @keyframes navbar-animation {
 	0% {
 		transform: translateY(-100%);
@@ -196,7 +200,7 @@ body {
 }
 .side-content {
 	grid-area: aside;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	align-items: center;
@@ -240,4 +244,49 @@ body {
 	grid-column: 4/7;
 	grid-row: 1/2;
 	height: 100%;
+}
+.footer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	background-color: var(--bg-elevated);
+	border-top-right-radius: 80px;
+	transform: translateY(100%);
+	animation-name: footer-animation;
+	animation-duration: 0.5s;
+	animation-delay: 2.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+@keyframes footer-animation {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+.footer div {
+	background-color: var(--brick-yellow);
+	width: 130px;
+	height: 65px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.footer div img {
+	width: 160px;
+	position: absolute;
+	bottom: 30px;
+	transform: translateY(0px) scale(1);
+	transition: transform 0.3s ease-in-out;
+}
+.footer div img:hover {
+	cursor: pointer;
+	transform: translateY(-20px) scale(1.1);
+	transition: transform 0.3s ease-in-out;
 }
