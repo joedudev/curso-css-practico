@@ -10,7 +10,7 @@ Landing interactivo construido con **CSS Grid**, **Flexbox**, animaciones, trans
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 ![Platzi](https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white)
 
-[🚀 Ver proyecto en vivo](https://TU-SITIO.netlify.app) · [🏆 Ver certificado](https://platzi.com/p/TU-USUARIO/curso/CERTIFICADO/) · [📚 Ver el curso](https://platzi.com/cursos/animaciones-css-practico/)
+[🚀 Ver proyecto en vivo](https://jed-css-practico.netlify.app/) · [🏆 Ver certificado](https://platzi.com/p/TU-USUARIO/curso/CERTIFICADO/) · [📚 Ver el curso](https://platzi.com/cursos/animaciones-css-practico/)
 
 </div>
 
@@ -45,21 +45,16 @@ Este repositorio contiene el proyecto práctico del **Curso Práctico de Maqueta
 - **CSS3**
 - **JavaScript (Vanilla)**
 
-<!-- ## 📂 Estructura del proyecto
+## 📂 Estructura del proyecto
 
 ```
 .
 ├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── main.js
+│── styles.css
+│── script.js
 ├── assets/
-│   └── images/
 └── README.md
-``` -->
-
-> 📝 Ajusta esta estructura a la real de tu repo.
+```
 
 ## 🚀 Cómo ejecutarlo localmente
 
@@ -74,12 +69,12 @@ cd NOMBRE-DEL-REPO
 # o usa una extensión como Live Server en VS Code
 ```
 
-<!-- ## 🌐 Demo y certificado
+## 🌐 Demo y certificado
 
-| | Enlace |
-| --- | --- |
-| 🚀 Proyecto en vivo (Netlify) | [Ver demo](https://TU-SITIO.netlify.app) |
-| 🏆 Certificado del curso | [Ver certificado](https://platzi.com/p/TU-USUARIO/curso/CERTIFICADO/) | -->
+|                               | Enlace                                                                                                |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------- |
+| 🚀 Proyecto en vivo (Netlify) | [Ver demo](https://jed-css-practico.netlify.app/)                                                     |
+| 🏆 Certificado del curso      | [Ver certificado](https://platzi.com/p/JoEduDev/curso/2338-animaciones-css-practico/diploma/detalle/) |
 
 ## 👨‍💻 Autor
 
